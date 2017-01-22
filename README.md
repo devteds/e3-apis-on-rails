@@ -16,7 +16,7 @@ Learn how to create a Rails API-only application. Create and run with docker.
 
 ```
 mkdir ~/projs
-git clone https://gitlab.com/cs-codecasts/docker-rails-template.git blog-api
+git clone git@github.com:ec-codecasts/docker-rails-template.git blog-api
 cd blog-api
 rm -rf .git
 docker-compose run app rails new . --force --database=mysql --skip-bundle --api
